@@ -2008,3 +2008,251 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 527.570550 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ed910e22ab78c2090ed358493b15d4') in 0.071183 seconds 
+  Import took 0.080656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2462ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2085ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (896ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (607ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2458.
+Total: 13.008800 ms (FindLiveObjects: 0.468700 ms CreateObjectMapping: 0.082900 ms MarkObjects: 12.335800 ms  DeleteObjects: 0.117100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243.718644 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8333e5ce66396f46a1fbe290e766c0d') in 0.089753 seconds 
+  Import took 0.098166 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.680 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2681ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2211ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (616ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (995ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2460.
+Total: 13.862600 ms (FindLiveObjects: 0.484400 ms CreateObjectMapping: 0.078700 ms MarkObjects: 13.226400 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.441880 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe9a98e4422bb84c09eadf92c9f40d5') in 0.037026 seconds 
+  Import took 0.064598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.301310 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf3aa06b4ad41a4b314c09c04cb8bc') in 0.065698 seconds 
+  Import took 0.074016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.282884 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0d5587ee563a9539e25ca00ed4748') in 0.022318 seconds 
+  Import took 0.028640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045063 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0d5587ee563a9539e25ca00ed4748') in 0.046687 seconds 
+  Import took 0.064100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.300749 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aafc1a3a40c5dd352419dc8a69c2c9c') in 0.060294 seconds 
+  Import took 0.091207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.643871 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30f2db79eda2f35ca3f8a738d4a7407') in 0.022581 seconds 
+  Import took 0.058320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026337 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30f2db79eda2f35ca3f8a738d4a7407') in 0.167603 seconds 
+  Import took 0.177909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.604952 seconds.
+  path: Assets/Sounds/MasterMix.mixer
+  artifactKey: Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/MasterMix.mixer using Guid(1063715cdca80614aa727a800d6e699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885c26db9fd8989d849b08e9ea634d61') in 0.068082 seconds 
+  Import took 0.098088 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2468ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2094ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (988ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (681ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2462.
+Total: 13.796700 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.080100 ms MarkObjects: 13.168400 ms  DeleteObjects: 0.072700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
