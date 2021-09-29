@@ -1025,6 +1025,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8606834181594466149, guid: 791998ad6dc43d244b503c45ed4b4ac9,
     type: 3}
   launchPosition: {fileID: 1126821449}
+  isUpgraded: 1
+  upgradeTime: 10
 --- !u!54 &684916626
 Rigidbody:
   m_ObjectHideFlags: 0
