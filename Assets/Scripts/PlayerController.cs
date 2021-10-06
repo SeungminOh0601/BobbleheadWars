@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     private float timeSinceHit = 0;
     private int hitNumber = -1;
 
+    public Rigidbody marineBody;
+    private bool isDead = false;
+
     private CharacterController characterController;
     private Vector3 currentLookTarget = Vector3.zero;
 
@@ -71,6 +74,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Die()
+    {
+        bodyAnimator.SetBool("IsMoving", false);
+        marineBody.transform.parent = null;
+        marineBody.isKinematic = false;
+        marineBody.useGravity = true;
+        marineBody.gameObject.GetComponent<CapsuleCollider>().enabled = true;
+        marineBody.gameObject.GetComponent<Gun>().enabled = false;
+
+        Destroy(head.gameObject.GetComponent<HingeJoint>());
+        head.transform.parent = null;
+        head.useGravity = true;
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.marineDeath);
+        Destroy(gameObject);
+    }
+
     void OnTriggerEnter(Collider other)
     {
         Alien alien = other.gameObject.GetComponent<Alien>();
@@ -87,7 +106,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
-
+                    Die();
                 }
 
                 isHit = true;
