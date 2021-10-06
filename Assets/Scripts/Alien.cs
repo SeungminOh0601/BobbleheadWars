@@ -15,6 +15,8 @@ public class Alien : MonoBehaviour
 
     private NavMeshAgent agent;
     private float navigationTime = 0;
+
+    private DeathParticles deathParticles;
     
     // Start is called before the first frame update
     void Start()
@@ -54,7 +56,24 @@ public class Alien : MonoBehaviour
         OnDestroy.Invoke();
         OnDestroy.RemoveAllListeners();
         SoundManager.Instance.PlayOneShot(SoundManager.Instance.alienDeath);
+
+        if (deathParticles)
+        {
+            deathParticles.transform.parent = null;
+            deathParticles.Activate();
+        }
+
         Destroy(gameObject);
+    }
+
+    public DeathParticles GetDeathParticles()
+    {
+        if (deathParticles == null)
+        {
+            deathParticles = GetComponentInChildren<DeathParticles>();
+        }
+
+        return deathParticles;
     }
 
     void OnTriggerEnter(Collider other)

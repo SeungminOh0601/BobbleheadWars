@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     public Gun gun;
     public float upgradeMaxTimeSpawn = 7.5f;
 
+    public GameObject deathFloor;
+
     private bool spawnedUpgrade = false;
     private float actualUpgradeTime = 0;
     private float currentUpgradeTime = 0;
@@ -80,6 +82,7 @@ public class GameManager : MonoBehaviour
                             newAlien.transform.position.y, player.transform.position.z);
                         newAlien.transform.LookAt(targetRotation);
                         alienScript.OnDestroy.AddListener(AlienDestroyed);
+                        alienScript.GetDeathParticles().SetDeathFloor(deathFloor);
                     }
                 }
             }
