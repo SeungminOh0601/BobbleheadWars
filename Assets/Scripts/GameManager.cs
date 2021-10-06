@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject deathFloor;
 
+    public Animator arenaAnimator;
+
     private bool spawnedUpgrade = false;
     private float actualUpgradeTime = 0;
     private float currentUpgradeTime = 0;
@@ -111,5 +113,16 @@ public class GameManager : MonoBehaviour
     {
         aliensOnScreen -= 1;
         totalAliens -= 1;
+
+        if (totalAliens == 0)
+        {
+            Invoke("EndGame", 2.0f);
+        }
+    }
+
+    private void EndGame()
+    {
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.elevatorArrived);
+        arenaAnimator.SetTrigger("PlayerWon");
     }
 }

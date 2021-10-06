@@ -15,6 +15,11 @@ public class Arena : MonoBehaviour
         sphereCollider = GetComponent<SphereCollider>();
     }
 
+    public void ActivatePlatform()
+    {
+        sphereCollider.enabled = true;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         Camera.main.transform.parent.gameObject.GetComponent<CameraMovement>().enabled = false;
